@@ -1,0 +1,14 @@
+# Raw data (large; source files documented in README.md)
+archive/
+
+# Generated/regenerable artifacts (rerun via `python data.py` / `python train.py`)
+processed/
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+train_log.txt
+*.log
